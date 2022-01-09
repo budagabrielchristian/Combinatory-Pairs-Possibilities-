@@ -1,5 +1,5 @@
-Example Run: 
-LinkedList A = new LinkedList<>();
+     Example Run: 
+               LinkedList A = new LinkedList<>();
 		LinkedList B = new LinkedList<>();
 		for(int i = 1; i<=3; i++) {
 			A.add("examplePerson"+i);
@@ -9,15 +9,16 @@ LinkedList A = new LinkedList<>();
 		}
 		PossibleCombinations pc = new PossibleCombinations(A, B);
 		pc.findCombinations();
-OUTPUT: 
+	
+	OUTPUT: 
 
-Elements A: [examplePerson1, examplePerson2, examplePerson3]
+	Elements A: [examplePerson1, examplePerson2, examplePerson3]
 
-Elements B: [assigningBook1, assigningBook2, assigningBook3, assigningBook4, assigningBook5]
+	Elements B: [assigningBook1, assigningBook2, assigningBook3, assigningBook4, assigningBook5]
 
-Combinations [15]: [(examplePerson1, assigningBook1), (examplePerson1, assigningBook2), 
-(examplePerson1, assigningBook3), (examplePerson1, assigningBook4), (examplePerson1, assigningBook5), 
-(examplePerson2, assigningBook1), (examplePerson2, assigningBook2), (examplePerson2, assigningBook3), 
-(examplePerson2, assigningBook4), (examplePerson2, assigningBook5), (examplePerson3, assigningBook1), 
-(examplePerson3, assigningBook2), (examplePerson3, assigningBook3), (examplePerson3, assigningBook4), 
-(examplePerson3, assigningBook5)]
+	Combinations [15]: [(examplePerson1, assigningBook1), (examplePerson1, assigningBook2), 
+	(examplePerson1, assigningBook3), (examplePerson1, assigningBook4), (examplePerson1, assigningBook5), 
+	(examplePerson2, assigningBook1), (examplePerson2, assigningBook2), (examplePerson2, assigningBook3), 
+	(examplePerson2, assigningBook4), (examplePerson2, assigningBook5), (examplePerson3, assigningBook1), 
+	(examplePerson3, assigningBook2), (examplePerson3, assigningBook3), (examplePerson3, assigningBook4), 
+	(examplePerson3, assigningBook5)]
